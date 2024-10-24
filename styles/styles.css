@@ -1,0 +1,430 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter_18pt-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('../fonts/Newsreader_14pt-Regular.ttf');
+}
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 112px;
+}
+
+.header_list_container {
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 46px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link_button, .link_button_white {
+    color: white;
+    background-color: #426B1F;
+    border-radius: 8px;
+    font-family: 'Inter';
+
+}
+
+
+.head_list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin-top: 0;
+}
+
+.header_logo {
+    font-size: 32px;
+    font-family: 'Newsreader';
+    color: #426B1F;
+    line-height: 32px;
+    margin-top: 41px;
+    margin-left: 96px;
+    font-weight: 500;
+}
+
+ul .link_button {
+    width: 126px;
+    height: 48px;
+    padding: 14px 24px 14px 24px;
+}
+
+.site_title_container {
+    display: flex;
+    margin-top: 167px;
+    flex-direction: column;
+    margin-left: 217px;
+    min-width:  1150px;
+    gap: 48px;
+    justify-content: center;
+    
+}
+
+.site_title_container p {
+    font-weight: 400;
+    font-size: 64px;
+    font-family: 'Newsreader';
+    text-align: center;
+    padding: 0;
+}
+
+.site_title_container .link_button {
+    font-size: 20px;
+    width: 228px;
+    height: 64px;
+    text-align: center;
+    justify-items: center;
+    /* margin-left: 608px; */
+    padding:    20px  32px 20px 32px ;
+    margin-left: 484px;
+}
+
+.img_container {
+    display: flex;
+    margin-left: 96px;
+    gap: 60px;
+    margin-top: 156px;
+}
+
+.right_img {
+    align-content: center;
+}
+.img_text {
+    margin-top: 16px;
+    font-size: 14px;
+    margin-right: 108px;
+    font-family: 'Inter';
+}
+
+.main_container {
+    display: flex;
+    margin-left: 96px;
+    width: 1035px;
+    margin-top: 165px;
+    gap: 32px;
+}
+
+.left_side {
+    min-width:180px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.right_side {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Inter';
+    margin-left: 32px;
+}
+
+.main_text-h6 {
+    margin-top: 0;
+}
+
+.basket_page_title__container, .shop_page_title__container {
+    display: flex;
+    height: 150px;
+    margin-left: 96px;
+    margin-right: 96px;
+    width: 1344px;
+    gap: 24px;
+    align-items: end;
+    border-bottom: solid #E6E6E6 2px;
+    /* justify-content: space-between; */
+}
+
+.basket_page_title--left_part {
+    font-family: 'Newsreader';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    margin-bottom: 16px;
+}
+
+.basket_page_title--right_part, .shop_page_title--right_part {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 33px;
+}
+
+.basket_main_container {
+    display: flex;
+    width: 1344px;
+    margin-left: 96px;
+    margin-top: 40px;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+    .basket_main_left__part_container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+.basket_main__left_part__container--items{
+    display: flex;
+    background-color: #FAFAF5;
+    border: solid 2px #E6E6E6;
+    border-radius: 24px;
+    height: 160px;
+    width: 822px;
+}
+
+.basket_main__left_part__items--img {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    display: block;
+}
+
+.basket_main__left_part__container--items--goods_description_container {
+    margin-top: 24px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.basket_main__left_part__container--items--goods_description--goods_name, .shop_main_item--name {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.basket_main__left_part__container--items--price, .shop_main_item--price {
+    margin-top: 4px;
+    color: #426B1F;
+    font-size: 20px;
+    font-family: 'Inter';
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.basket_main__left_part__container--items--input_field {
+    margin-top: 16px;
+    border-radius: 20px;
+    height: 40px;
+    width: 128px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid #E6E6E6;
+    text-align: left;
+    padding-left: 16px;
+    color: black;
+}
+
+.basket_main_right__part {
+    margin-top: 24px;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 394px;
+    
+
+}
+
+.basket_main_container_left_part {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.basket_right_part_container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 396px;
+    height: 318px;
+    background-color: #FAFAF5;
+    border-radius: 24px ;
+    
+}
+
+.basket_right_middle_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket_right_part--title {
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 24px;
+}
+
+.basket_part_middle_left_item{
+    font-size: 16px;
+    font-family: 'Inter';
+    line-height: 22px;
+    font-weight: 400;
+}
+.basket_part_middle_left_item--bold {
+    font-size: 16px;
+    font-family: 'Inter';
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.basket_right_middle_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket_part_middle_left_container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 24px;
+}
+
+.basket_part_middle_right_container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 24px;
+}
+
+.basket_right_bottom_container {
+    display: flex;
+    /* margin: 24px 24px 24px 34px; */
+    width: 348px;
+    height: 48px;
+    justify-content: center;
+    margin-left: 24px;
+
+    }
+
+.basket_right_part_container  .link_button {
+    
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 160px 13px 24px ;
+    text-align: center;
+  }
+
+  .header_logo a {
+    color: #426B1F;
+}
+
+/* .shop_left_container {
+    display: flex;
+} */
+
+.basket_page_title_buttons {
+    display: flex;
+    margin-left: 482px;
+    
+
+}
+
+.shop_section_left_container {
+    display: flex;
+    gap: 24px;
+}
+
+.shop_page_title--right_part {
+    margin-top: 36px;
+}
+   
+.shop_page_title__container {
+    display: flex;
+    margin-left: 96px;
+    justify-content: space-between;
+}
+    .basket_page_title_buttons {
+        margin-top: 36px;
+        display: flex;
+        gap: 8px;
+        justify-content: end;
+        margin-bottom: 33px;
+    }
+
+    .basket_page_title_buttons .link_button, .link_button_white {
+        border-radius: 20px;
+        width: 300px;
+        margin-bottom: 24px;
+        padding: 10px 16px 10px 16px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        
+    }
+
+    .link_button_white{
+        background-color: white;
+        color: black;
+        border: 1px #C2C2C2 solid;
+    }
+
+    .shop_main_container {
+        display: flex;
+        gap: 32px;
+        margin-top: 40px;
+        margin-left: 96px;
+        
+        
+    }
+
+    .shop_main_item_container {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #E6E6E6;
+        border-radius: 24px ;
+        background: #FAFAF5;
+        width: 395px;
+    }
+
+    .shop_main_item--img {
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+
+    .shop_main_item--name {
+        margin: 24px 0px 0px 24px;
+    }
+        
+    
+    .shop_main_item--price {
+        margin: 4px 0px 0px 24px;
+    }
+  
+
+    .shop_main_item--description {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #6D6D6D;
+        margin-left: 24px;
+        margin-top: 16px;
+        margin-bottom: 28px;
+
+
+    }
